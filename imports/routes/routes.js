@@ -19,7 +19,7 @@ export const onAuthChange = (isAuthenticated) => {
     const isUnauthenticatedPage = unauthenticatedPages.includes(pathname);
     const isAuthenticatedPage = authenticatedPages.includes(pathname);
 
-    console.log(pathname + ' ' + isAuthenticated);
+//    console.log(pathname + ' ' + isAuthenticated);
 
     if (isUnauthenticatedPage && isAuthenticated) {
         history.replace('/links');
